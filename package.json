@@ -1,0 +1,24 @@
+{
+  "name": "partner-mock-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Partner Mock API for the Bulk Order Processing & Partner Integration workshop",
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vercel/node": "^5.10.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
