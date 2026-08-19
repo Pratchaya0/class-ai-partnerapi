@@ -3,7 +3,7 @@ import {
   RANDOM_DISTRIBUTION,
   executeScenario,
   pickRandomScenario,
-} from "../src/scenarios/scenario-handler";
+} from "../src/scenarios/scenario-handler.js";
 
 /**
  * Random mode is never exercised through real randomness - the RNG is injected so

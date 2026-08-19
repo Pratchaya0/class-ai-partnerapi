@@ -4,7 +4,7 @@ import {
   scenarioFromHeader,
   scenarioFromOrderNo,
   type Scenario,
-} from "../src/scenarios/resolve-scenario";
+} from "../src/scenarios/resolve-scenario.js";
 
 describe("OrderNo convention", () => {
   const cases: Array<[string, Scenario]> = [

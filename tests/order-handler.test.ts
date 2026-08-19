@@ -1,12 +1,12 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import healthHandler from "../api/health";
-import { MAX_DELAY_MS } from "../src/config";
-import ordersHandler from "../api/orders";
+import healthHandler from "../api/health.js";
+import { MAX_DELAY_MS } from "../src/config.js";
+import ordersHandler from "../api/orders.js";
 import {
   createMockRequest,
   createMockResponse,
   validOrder,
-} from "./helpers/mock-http";
+} from "./helpers/mock-http.js";
 
 const KEY = "test-key";
 const authHeaders = { "X-Workshop-Key": KEY };

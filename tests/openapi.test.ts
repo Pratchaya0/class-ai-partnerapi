@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { OrderRequestSchema, toValidationErrors } from "../src/contracts/order-request";
-import { buildOpenApiDocument } from "../src/openapi/document";
-import { SCENARIOS } from "../src/scenarios/resolve-scenario";
+import { OrderRequestSchema, toValidationErrors } from "../src/contracts/order-request.js";
+import { buildOpenApiDocument } from "../src/openapi/document.js";
+import { SCENARIOS } from "../src/scenarios/resolve-scenario.js";
 
 /**
  * Contract tests. These exist to make the published docs fail loudly rather than

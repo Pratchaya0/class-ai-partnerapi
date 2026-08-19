@@ -1,11 +1,11 @@
-import { getMockTimeoutMs, isRandomScenarioEnabled } from "../config";
+import { getMockTimeoutMs, isRandomScenarioEnabled } from "../config.js";
 import {
   ERROR_CODES,
   errorResponse,
   successResponse,
   type PartnerResponse,
-} from "../contracts/partner-response";
-import type { Scenario } from "./resolve-scenario";
+} from "../contracts/partner-response.js";
+import type { Scenario } from "./resolve-scenario.js";
 
 /**
  * What the HTTP layer should do. Building this is pure: no timers are started and

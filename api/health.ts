@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { REQUEST_ID_HEADER, resolveRequestId } from "../src/utils/request-id";
+import { REQUEST_ID_HEADER, resolveRequestId } from "../src/utils/request-id.js";
 
 /** Liveness probe. Intentionally open - no workshop key required. */
 export default function handler(req: VercelRequest, res: VercelResponse): void {

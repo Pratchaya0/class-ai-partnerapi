@@ -1,11 +1,11 @@
 import { z } from "zod";
-import { OrderRequestSchema } from "../contracts/order-request";
+import { OrderRequestSchema } from "../contracts/order-request.js";
 import {
   HealthResponseSchema,
   PartnerErrorSchema,
   PartnerSuccessSchema,
-} from "../contracts/partner-response";
-import { SCENARIOS } from "../scenarios/resolve-scenario";
+} from "../contracts/partner-response.js";
+import { SCENARIOS } from "../scenarios/resolve-scenario.js";
 
 /**
  * The OpenAPI document is generated from the same Zod schemas the endpoints

@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { buildOpenApiDocument } from "../src/openapi/document";
+import { buildOpenApiDocument } from "../src/openapi/document.js";
 
 /**
  * Advertise the URL this request actually arrived on, so a preview deployment

@@ -3,17 +3,17 @@ import {
   OrderRequestSchema,
   isPlainObject,
   toValidationErrors,
-} from "../src/contracts/order-request";
-import { ERROR_CODES, errorResponse } from "../src/contracts/partner-response";
-import { WORKSHOP_KEY_HEADER, isAuthorized } from "../src/middleware/workshop-auth";
+} from "../src/contracts/order-request.js";
+import { ERROR_CODES, errorResponse } from "../src/contracts/partner-response.js";
+import { WORKSHOP_KEY_HEADER, isAuthorized } from "../src/middleware/workshop-auth.js";
 import {
   SCENARIO_HEADER,
   resolveScenario,
-} from "../src/scenarios/resolve-scenario";
-import { executeScenario } from "../src/scenarios/scenario-handler";
-import { logPartnerRequest } from "../src/utils/logger";
-import { REQUEST_ID_HEADER, resolveRequestId } from "../src/utils/request-id";
-import { sleep } from "../src/utils/sleep";
+} from "../src/scenarios/resolve-scenario.js";
+import { executeScenario } from "../src/scenarios/scenario-handler.js";
+import { logPartnerRequest } from "../src/utils/logger.js";
+import { REQUEST_ID_HEADER, resolveRequestId } from "../src/utils/request-id.js";
+import { sleep } from "../src/utils/sleep.js";
 
 /**
  * POST /api/orders - the endpoint the workshop's order processing worker calls.

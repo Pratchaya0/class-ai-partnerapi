@@ -1,4 +1,4 @@
-import { getWorkshopApiKey } from "../config";
+import { getWorkshopApiKey } from "../config.js";
 
 export const WORKSHOP_KEY_HEADER = "x-workshop-key";
 
